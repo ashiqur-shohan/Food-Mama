@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Food Mama</title>
+  </head>
+  <body>
+    <nav>
+      <div class="flex justify-start p-4 border-b border-black">
+        <div>
+          <h2 class="font-bold text-xl btn text-[#AD192A] px-4 rounded-lg py-2">
+            Food Mama
+          </h2>
+        </div>
+        <div class="flex items-center justify-center">
+          <ul class="flex gap-4 pr-4 hidden lg:flex">
+            <a href="./index.html"><li class="font-semibold"><span class="underline">Home</span></li></a>
+            <a href="./menu.html"><li class="font-semibold hover:underline">Menu</li></a>
+            <a href="./reservations.html"><li class="font-semibold hover:underline">Reservation</li></a>
+            <a href="./contact.html"><li class="font-semibold hover:underline">Contact Us</li></a>
+          </ul>
+
+          
+          <details class="dropdown mr-12 lg:hidden">
+            <summary class="m-1 btn"><img class="h-4" src="./pic/ham.png" alt=""></summary>
+            <ul class=" mr-4 p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                <a href="./index.html"><li class="font-semibold"><span class="underline">Home</span></li></a>
+                <a href="./menu.html"><li class="font-semibold hover:underline">Menu</li></a>
+                <a href="./reservations.html"><li class="font-semibold hover:underline">Reservation</li></a>
+                <a href="./contact.html"><li class="font-semibold hover:underline">Contact Us</li></a>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- header section -->
+      <header>
+
+        <div class="hero min-h-screen" style="background-image: url(./pic/pasta.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn btn-primary">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+          
+      </header>
+
+      <section>
+        <div>
+          <h1 class=" text-center text-4xl font-semibold my-8">Our Best Selling <span class="text-red-600">Products</span></h1>
+        </div>
+
+        <!-- card section -->
+        <section>
+          <div class=" grid lg:grid-cols-4 gap-2 px-8">
+            <!-- card 1 -->
+            <div class="card w-auto bg-base-100 shadow-xl">
+              <figure class="h-48">
+                <img
+                  src="https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1717410553~exp=1717414153~hmac=8f164edb1acb6536f5ba3b83897ca43789c78e4383a47420762429677dc82187&w=740"
+                  alt="pizza"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Pizza</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card w-auto bg-base-100 shadow-xl">
+              <figure class="h-48">
+                <img
+                  src="https://img.freepik.com/free-photo/side-view-club-sandwich-with-salted-cucumbers-lemon-olives-round-white-plate_176474-3049.jpg?t=st=1717412438~exp=1717416038~hmac=a82552cc6235882ebdee1e4421bc288667bd5e53159e0a779d2182cdf0dd3191&w=740"
+                  alt="kebab"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Sandwich</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card w-auto bg-base-100 shadow-xl">
+              <figure class="h-48">
+                <img
+                  src="https://img.freepik.com/free-photo/delicious-coffee-cup-indoors_23-2150691363.jpg?t=st=1717412786~exp=1717416386~hmac=ee4148bb3e7e3382940914c279eebef8932448c0dff851e81d34d43468d1c47a&w=826"
+                  alt="pizza"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Cold coffee</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card w-auto bg-base-100 shadow-xl">
+              <figure class="h-48">
+                <img
+                  src="https://img.freepik.com/free-photo/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables_24972-2328.jpg?t=st=1717412540~exp=1717416140~hmac=28dd3fdeafcfd8d44ad572245a3c9925003f3694b8eaac4988c56775e9c378e0&w=826"
+                  alt="pizza"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Steak</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+  </body>
+</html>

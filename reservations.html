@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Food Mama</title>
+  </head>
+  <body>
+    <nav>
+      <div class="flex justify-between p-4 border-b border-black">
+        <div>
+          <h2 class="font-semibold bg-yellow-500 text-white px-4 rounded-lg py-2">
+            Food Mama
+          </h2>
+        </div>
+        <div class="flex items-center justify-center">
+          <ul class="flex gap-4 pr-4">
+            <a href="./index.html"><li class="font-semibold hover:underline">Home</li></a>
+            <a href="./menu.html"><li class="font-semibold hover:underline">Menu</li></a>
+            <a href="./reservations.html"><li class="font-semibold hover:underline"> <span class="underline">Reservation</span></li></a>
+            <a href="./contact.html"><li class="font-semibold hover:underline">Contact Us</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+        <div class="min-h-screen flex  items-center justify-center">
+            <div class="flex flex-col border px-16 py-12 shadow-lg rounded-lg">
+                <p>Your Name</p>
+                <input type="text" placeholder="Your Name" class="input input-bordered w-full max-w-xs" /> <br>
+                <p>Your email</p>
+                <input type="email" placeholder="Your email" class="input input-bordered w-full max-w-xs" /> <br>
+                <p>Your Phone</p>
+                <input type="phone" placeholder="phone num" class="input input-bordered w-full max-w-xs" /> <br>
+                <p>Select reservation date</p>
+                <input type="date" placeholder="Your Name" class="input input-bordered w-full max-w-xs" /> <br>
+                <p>Select reservation time</p>
+                <input type="time" placeholder="Your Name" class="input input-bordered w-full max-w-xs" /> <br>
+                <button class="btn btn-primary">Submit </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+      </footer>
+  </body>
+</html>
